@@ -1,4 +1,4 @@
-name: My Workflow
+name: Resuable Workflow
 
 on:
   workflow_call: 
