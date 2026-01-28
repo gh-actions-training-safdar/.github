@@ -1,4 +1,4 @@
-name: My Workflow
+name: Demo Caller Workflow
 
 on:
   workflow_dispatch: 
@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Job 2
-        run: echo hello world
+        run: echo hello world 2
