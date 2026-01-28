@@ -2,5 +2,5 @@
   "name": "My workflow",
   "description": "test",
   "categories": ["C#"],
-  "filePatterns":, ["**.sln"]
+  "filePatterns": ["**.sln"]
 }
