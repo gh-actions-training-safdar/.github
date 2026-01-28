@@ -1,0 +1,13 @@
+name: My Workflow
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  job1:
+    uses: ./.github/workflows/reusable-workflow.yml
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job 2
+        run: echo hello world
