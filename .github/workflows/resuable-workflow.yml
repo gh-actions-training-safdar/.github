@@ -1,0 +1,11 @@
+name: My Workflow
+
+on:
+  workflow_call: 
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Job 1
+        run: echo hello world
